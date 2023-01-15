@@ -20,6 +20,6 @@ for (int i = 0; i < digits.Count / 2; i++)
 }
 
 if (isPol)
-    Console.WriteLine("Число {0} является полиндромом", number);
+    Console.WriteLine("Число {0} является палиндромом", number);
 else
-    Console.WriteLine("Число {0} не является полиндромом", number);
+    Console.WriteLine("Число {0} не является палиндромом", number);
