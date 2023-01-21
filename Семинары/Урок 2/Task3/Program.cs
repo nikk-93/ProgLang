@@ -24,6 +24,7 @@ if (isPol)
 else
     Console.WriteLine("Число {0} не является палиндромом", number);
 
+
 // Console.Write("Ведите число: ");
 // int number = int.Parse(Console.ReadLine() ?? "0");
 // int mod = 0;
