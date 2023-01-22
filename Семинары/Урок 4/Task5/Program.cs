@@ -55,9 +55,9 @@ void DisplayArray<T>(T[] arr)
 
 Console.Write("Введите размер массива: ");
 var n = int.Parse(Console.ReadLine() ?? "0");
-var arr = new int[] { -1, -3, -1, -3, -1, 0, -4, -2 };
+var arr = new int[n];
 
-//FillArray(arr, -n, n + 1);
+FillArray(arr, -n, n + 1);
 
 DisplayArray(arr);
 
